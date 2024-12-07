@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Logs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 20px;
+        }
+        .log-container { 
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        .log-entry {
+            font-family: monospace;
+            margin: 5px 0;
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .error { color: #dc3545; }
+        .info { color: #0d6efd; }
+        .warning { color: #ffc107; }
+        .timestamp {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        .function-name {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .level {
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin: 0 5px;
+        }
+        .level.error {
+            background-color: #dc354522;
+        }
+        .level.info {
+            background-color: #0d6efd22;
+        }
+        .level.warning {
+            background-color: #ffc10722;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .refresh {
+            float: right;
+            background-color: #27ae60;
+        }
+        .refresh:hover {
+            background-color: #219a52;
+        }
+        h1 {
+            margin: 0;
+        }
+        .controls {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Application Logs</h1>
+        </div>
+        <div class="controls">
+            <a href="/" class="button">← Back to Home</a>
+            <a href="/logs" class="button refresh">↻ Refresh Logs</a>
+        </div>
+        <div class="log-container">
+            {% for log in logs %}
+                <div class="log-entry">
+                    <span class="timestamp">{{ log.split(' - ')[0] }}</span>
+                    {% if 'ERROR' in log %}
+                        <span class="level error">ERROR</span>
+                    {% elif 'WARNING' in log %}
+                        <span class="level warning">WARNING</span>
+                    {% else %}
+                        <span class="level info">INFO</span>
+                    {% endif %}
+                    {% if '[' in log and ']' in log %}
+                        <span class="function-name">{{ log.split('[')[1].split(']')[0] }}</span>
+                    {% endif %}
+                    {{ log.split('] - ')[-1] if '] - ' in log else log }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

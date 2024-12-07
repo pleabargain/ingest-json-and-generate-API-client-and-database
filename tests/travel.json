@@ -1,0 +1,249 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Travel Booking",
+    "description": "Schema for travel agent booking records",
+    "type": "object",
+    "required": [
+      "bookingId",
+      "customer",
+      "consultation",
+      "travelDates",
+      "passengers",
+      "itinerary"
+    ],
+    "properties": {
+      "bookingId": {
+        "type": "string",
+        "description": "Unique identifier for the booking",
+        "pattern": "^BOOK-[0-9]{6}$"
+      },
+      "customer": {
+        "type": "object",
+        "required": ["firstName", "lastName", "email", "phone"],
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lastName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\+?[1-9]\\d{1,14}$"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "street": { "type": "string" },
+              "city": { "type": "string" },
+              "state": { "type": "string" },
+              "postalCode": { "type": "string" },
+              "country": { "type": "string" }
+            }
+          }
+        }
+      },
+      "consultation": {
+        "type": "object",
+        "required": ["date", "agentId", "notes"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "agentId": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "followUpDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "travelDates": {
+        "type": "object",
+        "required": ["departure", "return"],
+        "properties": {
+          "departure": {
+            "type": "string",
+            "format": "date"
+          },
+          "return": {
+            "type": "string",
+            "format": "date"
+          },
+          "isFlexible": {
+            "type": "boolean",
+            "default": false
+          },
+          "flexibilityRange": {
+            "type": "object",
+            "properties": {
+              "before": { "type": "integer", "minimum": 0 },
+              "after": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      },
+      "passengers": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["firstName", "lastName", "dateOfBirth", "passportInfo"],
+          "properties": {
+            "firstName": { "type": "string" },
+            "lastName": { "type": "string" },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date"
+            },
+            "passportInfo": {
+              "type": "object",
+              "required": ["number", "expiryDate", "countryOfIssue"],
+              "properties": {
+                "number": { "type": "string" },
+                "expiryDate": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "countryOfIssue": { "type": "string" }
+              }
+            },
+            "specialRequirements": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "wheelchair",
+                  "dietary",
+                  "medical",
+                  "infant",
+                  "other"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "itinerary": {
+        "type": "object",
+        "required": ["departure", "arrival", "accommodation"],
+        "properties": {
+          "departure": {
+            "type": "object",
+            "required": ["airport", "datetime"],
+            "properties": {
+              "airport": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "datetime": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "flightNumber": { "type": "string" },
+              "terminal": { "type": "string" }
+            }
+          },
+          "arrival": {
+            "type": "object",
+            "required": ["airport", "datetime"],
+            "properties": {
+              "airport": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "datetime": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "flightNumber": { "type": "string" },
+              "terminal": { "type": "string" }
+            }
+          },
+          "accommodation": {
+            "type": "object",
+            "required": ["hotelName", "checkIn", "checkOut"],
+            "properties": {
+              "hotelName": { "type": "string" },
+              "address": {
+                "type": "object",
+                "properties": {
+                  "street": { "type": "string" },
+                  "city": { "type": "string" },
+                  "state": { "type": "string" },
+                  "postalCode": { "type": "string" },
+                  "country": { "type": "string" }
+                }
+              },
+              "checkIn": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "checkOut": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "roomType": { "type": "string" },
+              "specialConsiderations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["type", "description"],
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "accessibility",
+                        "dietary",
+                        "room preference",
+                        "special occasion",
+                        "other"
+                      ]
+                    },
+                    "description": { "type": "string" },
+                    "status": {
+                      "type": "string",
+                      "enum": ["requested", "confirmed", "unavailable"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "status": {
+        "type": "string",
+        "enum": ["draft", "confirmed", "paid", "completed", "cancelled"],
+        "default": "draft"
+      },
+      "totalCost": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "minimum": 0
+          },
+          "currency": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          }
+        }
+      },
+      "lastModified": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  }

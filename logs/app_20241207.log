@@ -1,0 +1,326 @@
+2024-12-07 12:28:49,235 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 12:28:49,237 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 12:28:49,274 - json_processor - [wrapper] - INFO - Completed init_db in 0.04 seconds
+2024-12-07 12:28:49,276 - json_processor - [wrapper] - INFO - Completed create_app in 0.04 seconds
+2024-12-07 12:28:49,279 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 12:28:49,279 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 12:30:17,098 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 12:30:17,098 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 12:30:17,099 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 12:30:17] "GET / HTTP/1.1" 200 -
+2024-12-07 12:38:11,811 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 12:38:11,812 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 12:38:11,812 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 12:38:11] "GET / HTTP/1.1" 200 -
+2024-12-07 12:39:47,121 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 12:39:47,121 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 12:39:47,122 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 12:39:47] "GET / HTTP/1.1" 200 -
+2024-12-07 13:01:12,550 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:01:12,551 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:01:12,562 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:01:12,566 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:01:12,587 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 13:01:12,587 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 13:01:12,588 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:01:12,987 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:01:12,988 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:01:12,997 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:01:13,001 - json_processor - [wrapper] - INFO - Completed create_app in 0.01 seconds
+2024-12-07 13:01:13,011 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:01:13,012 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:01:37,545 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:01:37,545 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:01:37,545 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:01:37] "GET / HTTP/1.1" 200 -
+2024-12-07 13:01:46,219 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:01:46] "[32mGET /swagger HTTP/1.1[0m" 308 -
+2024-12-07 13:03:52,293 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:03:52,360 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:03:52,792 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:03:52,793 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:03:52,803 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:03:52,807 - json_processor - [wrapper] - INFO - Completed create_app in 0.01 seconds
+2024-12-07 13:03:52,817 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:03:52,817 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:04:09,530 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:04:09,531 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:04:09,541 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:04:09,545 - json_processor - [wrapper] - INFO - Completed create_app in 0.01 seconds
+2024-12-07 13:04:09,556 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 13:04:09,556 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 13:04:09,557 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:04:10,012 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:04:10,013 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:04:10,027 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:04:10,034 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:04:10,048 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:04:10,048 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:04:22,962 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:04:22,963 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:04:22,963 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:04:22] "GET / HTTP/1.1" 200 -
+2024-12-07 13:04:37,287 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:04:37,288 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:04:37,288 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:04:37] "GET / HTTP/1.1" 200 -
+2024-12-07 13:04:39,061 - json_processor - [wrapper] - INFO - Starting health_check
+2024-12-07 13:04:39,061 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:04:39,073 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.01 seconds
+2024-12-07 13:04:39,074 - json_processor - [wrapper] - INFO - Completed health_check in 0.01 seconds
+2024-12-07 13:04:39,074 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:04:39] "GET /api/health HTTP/1.1" 200 -
+2024-12-07 13:05:43,436 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/swagger_config.py', reloading
+2024-12-07 13:05:43,519 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:05:43,933 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:05:43,934 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:05:43,944 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:05:43,948 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:05:43,958 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:05:43,959 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:05:55,284 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:05:55,353 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:05:55,785 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:05:55,786 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:05:55,797 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:05:55,801 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:05:55,812 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:05:55,812 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:06:20,381 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:06:20,457 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:06:20,928 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:06:20,929 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:06:20,940 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:06:20,946 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:06:20,958 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:06:20,958 - werkzeug - [_log] - INFO -  * Debugger PIN: 887-358-768
+2024-12-07 13:06:23,568 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:06:23,645 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:06:24,073 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:06:24,074 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:06:24,085 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:06:24,092 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:06:24,102 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:06:24,103 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:07:03,579 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:07:03,650 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:07:04,069 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:07:04,071 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:07:04,086 - json_processor - [wrapper] - INFO - Completed init_db in 0.02 seconds
+2024-12-07 13:07:04,093 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:07:04,108 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:07:04,109 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:07:20,333 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:07:20,335 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:07:20,344 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:07:20,348 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:07:20,361 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 13:07:20,362 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 13:07:20,362 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:07:20,832 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:07:20,833 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:07:20,847 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:07:20,854 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:07:20,868 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:07:20,869 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:07:27,944 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:07:27,944 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:07:27,945 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:07:27] "GET / HTTP/1.1" 200 -
+2024-12-07 13:07:44,719 - json_processor - [wrapper] - INFO - Starting health_check
+2024-12-07 13:07:44,719 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:07:44,732 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.01 seconds
+2024-12-07 13:07:44,732 - json_processor - [wrapper] - INFO - Completed health_check in 0.01 seconds
+2024-12-07 13:07:44,733 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:07:44] "GET /api/health HTTP/1.1" 200 -
+2024-12-07 13:07:50,723 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:07:50,724 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:07:50,724 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:07:50] "GET / HTTP/1.1" 200 -
+2024-12-07 13:10:24,898 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:10:24,965 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:11:07,923 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:11:08,413 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:11:08,414 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:11:08,429 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:11:08,437 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:11:08,451 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:11:08,452 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:19:56,689 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:19:56,795 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:19:57,378 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:19:57,380 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:19:57,389 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:19:57,393 - json_processor - [wrapper] - INFO - Completed create_app in 0.01 seconds
+2024-12-07 13:19:57,403 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:19:57,403 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:19:58,761 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:19:58,839 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:19:59,254 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:19:59,256 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:19:59,270 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:19:59,276 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:19:59,290 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:19:59,290 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:20:18,075 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:20:18,137 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:20:18,534 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:20:18,535 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:20:18,545 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:20:18,549 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:20:18,559 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:20:18,559 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:25:52,709 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/main.py', reloading
+2024-12-07 13:25:52,776 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:25:57,177 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:26:01,521 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:26:01,912 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:26:01,913 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:26:01,923 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:26:01,928 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:26:01,938 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:26:01,938 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:26:55,341 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:26:55,342 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:26:55,352 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:26:55,356 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:26:55,368 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 13:26:55,368 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 13:26:55,369 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:26:55,851 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:26:55,852 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:26:55,877 - json_processor - [wrapper] - INFO - Completed init_db in 0.02 seconds
+2024-12-07 13:26:55,889 - json_processor - [wrapper] - INFO - Completed create_app in 0.04 seconds
+2024-12-07 13:26:55,912 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:26:55,912 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:27:06,546 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:27:06,549 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:27:06,549 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:27:06] "GET / HTTP/1.1" 200 -
+2024-12-07 13:28:09,407 - json_processor - [wrapper] - INFO - Starting upload_file
+2024-12-07 13:28:09,409 - json_processor - [wrapper] - INFO - Starting process_single_log
+2024-12-07 13:28:09,409 - json_processor - [wrapper] - INFO - Starting validate_json_data
+2024-12-07 13:28:09,410 - json_processor - [log_validation_result] - WARNING - Validation failed for data_id: unknown
+2024-12-07 13:28:09,410 - json_processor - [wrapper] - INFO - Completed validate_json_data in 0.00 seconds
+2024-12-07 13:28:09,410 - json_processor - [wrapper] - INFO - Starting log_error
+2024-12-07 13:28:09,429 - json_processor - [wrapper] - INFO - Completed log_error in 0.02 seconds
+2024-12-07 13:28:09,429 - json_processor - [wrapper] - INFO - Completed process_single_log in 0.02 seconds
+2024-12-07 13:28:09,429 - json_processor - [upload_file] - INFO - File upload processed: travel.json, Success: False
+2024-12-07 13:28:09,430 - json_processor - [wrapper] - INFO - Completed upload_file in 0.02 seconds
+2024-12-07 13:28:09,430 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:28:09] "[31m[1mPOST /upload HTTP/1.1[0m" 422 -
+2024-12-07 13:30:44,304 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/schemas/validators.py', reloading
+2024-12-07 13:30:44,365 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:30:44,776 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:30:44,777 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:30:44,787 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:30:44,791 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:30:44,801 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:30:44,802 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:31:01,666 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/schemas/validators.py', reloading
+2024-12-07 13:31:01,726 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:31:02,116 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:31:02,116 - werkzeug - [_log] - INFO -  * Debugger PIN: 887-358-768
+2024-12-07 13:31:37,152 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/schemas/validators.py', reloading
+2024-12-07 13:31:37,215 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:31:37,607 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:31:37,608 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:31:37,618 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:31:37,623 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:31:37,632 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:31:37,633 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:32:00,077 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/services/log_processor.py', reloading
+2024-12-07 13:32:00,148 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:32:00,666 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:32:00,666 - werkzeug - [_log] - INFO -  * Debugger PIN: 887-358-768
+2024-12-07 13:32:09,589 - werkzeug - [_log] - INFO -  * Detected change in '/workspaces/codespaces-blank/app/services/log_processor.py', reloading
+2024-12-07 13:32:09,645 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:32:10,077 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:32:10,078 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:32:10,089 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:32:10,093 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:32:10,104 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:32:10,104 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:33:03,552 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:33:03,553 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:33:03,563 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:33:03,567 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:33:03,580 - werkzeug - [_log] - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.254:8000
+2024-12-07 13:33:03,580 - werkzeug - [_log] - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 13:33:03,581 - werkzeug - [_log] - INFO -  * Restarting with stat
+2024-12-07 13:33:03,977 - json_processor - [wrapper] - INFO - Starting create_app
+2024-12-07 13:33:03,978 - json_processor - [wrapper] - INFO - Starting init_db
+2024-12-07 13:33:03,989 - json_processor - [wrapper] - INFO - Completed init_db in 0.01 seconds
+2024-12-07 13:33:03,994 - json_processor - [wrapper] - INFO - Completed create_app in 0.02 seconds
+2024-12-07 13:33:04,004 - werkzeug - [_log] - WARNING -  * Debugger is active!
+2024-12-07 13:33:04,004 - werkzeug - [_log] - INFO -  * Debugger PIN: 979-955-537
+2024-12-07 13:33:09,877 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:33:09,881 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:33:09,882 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:09] "GET / HTTP/1.1" 200 -
+2024-12-07 13:33:24,598 - json_processor - [wrapper] - INFO - Starting upload_file
+2024-12-07 13:33:24,599 - json_processor - [wrapper] - INFO - Starting process_single_log
+2024-12-07 13:33:24,600 - json_processor - [wrapper] - INFO - Starting validate_json_data
+2024-12-07 13:33:24,600 - json_processor - [detect_json_type] - INFO - Detected JSON Schema document
+2024-12-07 13:33:24,600 - json_processor - [validate_json_data] - INFO - Valid JSON Schema document
+2024-12-07 13:33:24,600 - json_processor - [wrapper] - INFO - Completed validate_json_data in 0.00 seconds
+2024-12-07 13:33:24,600 - json_processor - [process_single_log] - INFO - Successfully processed JSON Schema: Travel Booking
+2024-12-07 13:33:24,600 - json_processor - [wrapper] - INFO - Completed process_single_log in 0.00 seconds
+2024-12-07 13:33:24,600 - json_processor - [upload_file] - INFO - File upload processed: travel.json, Success: True
+2024-12-07 13:33:24,600 - json_processor - [wrapper] - INFO - Completed upload_file in 0.00 seconds
+2024-12-07 13:33:24,601 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:24] "POST /upload HTTP/1.1" 200 -
+2024-12-07 13:33:34,116 - json_processor - [wrapper] - INFO - Starting get_errors
+2024-12-07 13:33:34,116 - json_processor - [wrapper] - INFO - Starting get_recent_errors
+2024-12-07 13:33:34,124 - json_processor - [get_recent_errors] - INFO - Retrieved 1 recent errors
+2024-12-07 13:33:34,124 - json_processor - [wrapper] - INFO - Completed get_recent_errors in 0.01 seconds
+2024-12-07 13:33:34,125 - json_processor - [wrapper] - INFO - Completed get_errors in 0.01 seconds
+2024-12-07 13:33:34,125 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:34] "GET /api/errors HTTP/1.1" 200 -
+2024-12-07 13:33:41,266 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:33:41,266 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:33:41,267 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:41] "GET / HTTP/1.1" 200 -
+2024-12-07 13:33:48,521 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:33:48,522 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:33:48,522 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:48] "GET / HTTP/1.1" 200 -
+2024-12-07 13:33:51,465 - json_processor - [wrapper] - INFO - Starting view_logs
+2024-12-07 13:33:51,477 - json_processor - [wrapper] - INFO - Completed view_logs in 0.01 seconds
+2024-12-07 13:33:51,478 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:33:51] "GET /logs HTTP/1.1" 200 -
+2024-12-07 13:34:04,172 - json_processor - [wrapper] - INFO - Starting root
+2024-12-07 13:34:04,172 - json_processor - [wrapper] - INFO - Completed root in 0.00 seconds
+2024-12-07 13:34:04,172 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:34:04] "GET / HTTP/1.1" 200 -
+2024-12-07 13:34:08,958 - json_processor - [wrapper] - INFO - Starting health_check
+2024-12-07 13:34:08,958 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:34:08,965 - json_processor - [get_processing_stats] - INFO - Stats retrieved: {'total_logs_processed': 0, 'total_validation_errors': 1, 'last_processed': None, 'status': 'healthy'}
+2024-12-07 13:34:08,965 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.01 seconds
+2024-12-07 13:34:08,966 - json_processor - [wrapper] - INFO - Completed health_check in 0.01 seconds
+2024-12-07 13:34:08,966 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:34:08] "GET /api/health HTTP/1.1" 200 -
+2024-12-07 13:34:18,057 - json_processor - [wrapper] - INFO - Starting get_stats
+2024-12-07 13:34:18,057 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:34:18,059 - json_processor - [get_processing_stats] - INFO - Stats retrieved: {'total_logs_processed': 0, 'total_validation_errors': 1, 'last_processed': None, 'status': 'healthy'}
+2024-12-07 13:34:18,059 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.00 seconds
+2024-12-07 13:34:18,060 - json_processor - [wrapper] - INFO - Completed get_stats in 0.00 seconds
+2024-12-07 13:34:18,060 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:34:18] "GET /api/stats HTTP/1.1" 200 -
+2024-12-07 13:34:25,130 - json_processor - [wrapper] - INFO - Starting get_errors
+2024-12-07 13:34:25,130 - json_processor - [wrapper] - INFO - Starting get_recent_errors
+2024-12-07 13:34:25,131 - json_processor - [get_recent_errors] - INFO - Retrieved 1 recent errors
+2024-12-07 13:34:25,131 - json_processor - [wrapper] - INFO - Completed get_recent_errors in 0.00 seconds
+2024-12-07 13:34:25,132 - json_processor - [wrapper] - INFO - Completed get_errors in 0.00 seconds
+2024-12-07 13:34:25,132 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:34:25] "GET /api/errors HTTP/1.1" 200 -
+2024-12-07 13:34:46,181 - json_processor - [wrapper] - INFO - Starting health_check
+2024-12-07 13:34:46,181 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:34:46,182 - json_processor - [get_processing_stats] - INFO - Stats retrieved: {'total_logs_processed': 0, 'total_validation_errors': 1, 'last_processed': None, 'status': 'healthy'}
+2024-12-07 13:34:46,182 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.00 seconds
+2024-12-07 13:34:46,183 - json_processor - [wrapper] - INFO - Completed health_check in 0.00 seconds
+2024-12-07 13:34:46,183 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:34:46] "GET /api/health HTTP/1.1" 200 -
+2024-12-07 13:35:09,109 - json_processor - [wrapper] - INFO - Starting health_check
+2024-12-07 13:35:09,109 - json_processor - [wrapper] - INFO - Starting get_processing_stats
+2024-12-07 13:35:09,111 - json_processor - [get_processing_stats] - INFO - Stats retrieved: {'total_logs_processed': 0, 'total_validation_errors': 1, 'last_processed': None, 'status': 'healthy'}
+2024-12-07 13:35:09,111 - json_processor - [wrapper] - INFO - Completed get_processing_stats in 0.00 seconds
+2024-12-07 13:35:09,111 - json_processor - [wrapper] - INFO - Completed health_check in 0.00 seconds
+2024-12-07 13:35:09,112 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:35:09] "GET /api/health HTTP/1.1" 200 -
+2024-12-07 13:35:15,494 - json_processor - [wrapper] - INFO - Starting view_logs
+2024-12-07 13:35:15,498 - json_processor - [wrapper] - INFO - Completed view_logs in 0.00 seconds
+2024-12-07 13:35:15,499 - werkzeug - [_log] - INFO - 127.0.0.1 - - [07/Dec/2024 13:35:15] "GET /logs HTTP/1.1" 200 -
